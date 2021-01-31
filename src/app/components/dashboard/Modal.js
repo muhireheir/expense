@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import "react-datepicker/dist/react-datepicker.css";
 import InputField from '../common/InputField'
 import SubmitButton from '../common/SubmitButton'
 import CloseButton from '../common/CloseButton'

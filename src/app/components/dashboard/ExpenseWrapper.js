@@ -7,7 +7,7 @@ export default function ExpenseWrapper() {
     const Expenses = useSelector(state=>state.expenses);
     useEffect(()=>{
         addExpense(Expenses)
-    });
+    },[Expenses]);
     return (
         <div className='w-full h-full overflow-y-auto p-1 space-y-1'> 
             {expenses.map((SingleItem,i)=>(
