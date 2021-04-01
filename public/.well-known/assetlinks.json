@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.snowtcheno.mytwa",
+      "sha256_cert_fingerprints": [
+        "CC:D7:0F:60:3D:3E:94:95:F3:68:34:D9:9A:E8:D8:2E:CB:D3:AB:12:72:33:D2:56:B3:26:6E:34:2D:62:DC:2E"
+      ]
+    }
+  }
+]
