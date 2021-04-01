@@ -1,0 +1,9 @@
+{
+  "permissions": [
+    "*://*.google.com",
+    "cookies",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
