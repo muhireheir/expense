@@ -9,6 +9,7 @@
     "auto-prefixer": "^0.4.2",
     "postcss": "^8.2.4",
     "react": "^17.0.1",
+    "react-app-rewired": "^2.1.8",
     "react-datepicker": "^3.4.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",
@@ -16,13 +17,16 @@
     "react-scripts": "4.0.1",
     "redux": "^4.0.5",
     "sass": "^1.32.5",
+    "serve": "^11.3.2",
     "tailwindcss": "^2.0.2",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "workbox-build": "^6.1.2",
+    "workbox-webpack-plugin": "^6.1.2"
   },
   "scripts": {
     "postinstall": "yarn build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired  build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:css": "tailwindcss build ./src/app/styles/base.css -o ./src/app/styles/style.css"
